@@ -1,0 +1,23 @@
+.place__text {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    display: flex;
+    flex-direction: column;
+    row-gap: 26px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:768px) {
+    .place__text {
+        row-gap: 25px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .place__text {
+        row-gap: 25px;
+        padding-left: 16px;
+        padding-right: 16px;
+        box-sizing: border-box;
+    }
+}

@@ -1,0 +1,26 @@
+.place__link-heading {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    color: #AAAAAA;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    display: flex;
+    flex-direction: column;
+    align-self: end;
+    row-gap: 12px;
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width: 320px) {
+    .place__link-heading {
+        padding-left: 16px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+    }
+}

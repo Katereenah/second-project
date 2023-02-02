@@ -1,0 +1,7 @@
+.header__languages {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 18px;
+    text-align: end;
+    align-items: end;
+}
